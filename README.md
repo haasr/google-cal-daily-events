@@ -13,7 +13,10 @@ of mine (which is a bit too hackish to redistribute). I
 figured it may be useful in other projects. It does just
 get the current day's events because that is all I wanted
 but you could easily write some additional functions to
-get calendar events in specific time periods.
+get calendar events in specific time periods. My calendar
+module's get_events function also returns a message for
+each event which I feed through a text-to-speech engine
+in my smart alarm project to have the events read aloud.
 
 ## Setup
 Follow the steps below to get setup.
