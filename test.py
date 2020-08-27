@@ -17,11 +17,10 @@ id = input('ID >> ')
 todays_events = cal.get_events(id)
 try:
     print('EVENTS:')
-    for ev in todays_events:
-        print('____________________')
-        print('Title: '+ ev.title)
-        print('Descr: ' + ev.description)
-        print('Time:  ' + ev.event_time)
+    for ev in todays_events.keys():
+        ev_descr = todays_events[ev]
+        print(ev_descr)
         events.EventWindow(ev)
-except:
+except Exception as e:
+    print(e)
     print('No events today.')
