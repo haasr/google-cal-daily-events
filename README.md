@@ -25,8 +25,7 @@ file, replace the empty JSON file in (calendar_utils/client_token/credentials.js
 the ".pkl" file.
 
 ### 2) Setup the virtualenv
-Create a virtual environment. This command will be slightly
-different per OS but on Debian-base distros it is:
+Create a virtual environment:
 
         python3 -m venv venv
 
