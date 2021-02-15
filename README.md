@@ -19,7 +19,7 @@ each event which I feed through a text-to-speech engine
 in my smart alarm project to have the events read aloud.
 
 ## Setup
-Follow the steps below to get setup.
+Follow the steps below to get set up.
 
 ### 1) Get a client secret for the API
 See the Google Developer link, (https://developers.google.com/calendar/quickstart/python).
